@@ -1,0 +1,204 @@
+.installation {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin: auto;
+}
+
+.installation1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+}
+
+
+.installationTitle{
+    width: 100%;
+    text-align: left;
+}
+.installationTitle h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #01777c;
+  margin-bottom: 4rem;
+}
+
+.installTitle {
+  background-color: #01777c;
+  color: #fff;
+  /* text-align: center; */
+  padding: 0.5rem 20px;
+  font-size: clamp(1rem, 1.75vw, 1.75rem);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.installTitle1 {
+  width: 100%;
+  background-color: #01777c;
+  color: #fff;
+  /* text-align: center; */
+  padding: 1rem 20px;
+  font-size: clamp(1rem, 1.75vw, 1.75rem);
+  font-weight: 700;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+
+
+.installTitle2{
+    width: 100%;
+    background-color: #01777c;
+    color: #fff;
+    /* text-align: center; */
+    padding: 1rem 20px;
+    font-size: clamp(1rem, 1.58vw, 1.58rem);
+    font-weight: 700;
+    /* white-space: nowrap; */
+    height: 149px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.installTitle1 p, .installTitle2 p {
+  font-size: clamp(0.7rem, 1.25vw, 1.25rem) !important;
+  color: #fff !important;
+  line-height: clamp(1.5rem, 1.5vw, 1.5rem) !important;
+  margin-bottom: 0;
+}
+
+.installation1 p {
+  font-size: clamp(0.9rem, 1.565vw, 1.565rem);
+  color: #01777c;
+  font-weight: 600;
+}
+
+.installImg {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.insImg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.insImg img {
+  width: 70%;
+}
+
+.siteImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.siteImg img {
+  width: 80%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    gap: 6px;
+  }
+  
+  .pagination button {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #313131;
+    background-color: #fff;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+  }
+  
+  .pagination button.active {
+    background-color: #03989E;
+    color: white;
+  }
+  
+
+  .siteName1, .siteName2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .siteName1{
+    margin-bottom: 6rem;
+  }
+
+  .sn1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 2rem;
+  }
+
+  .snImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .snImg img{
+    width: 90%;
+  }
+
+  .siteName3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4rem;
+  }
+
+  .siteName3 img{
+    width: 100%;
+  }
+
+  .s31{
+    width: 80% !important;
+    margin: auto;
+  }
+
+  .sn2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 2rem;
+  }
+
+  .sn2 img{
+    width: 100%;
+  }
+
+  .s43{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+.siteName4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+.siteName4 img{
+    width: 100%;
+}

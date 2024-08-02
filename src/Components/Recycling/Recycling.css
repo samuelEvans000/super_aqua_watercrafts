@@ -1,0 +1,100 @@
+.recycling {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 2rem 1rem 4rem 1rem;
+}
+
+.recycling h1 {
+  color: #01777c;
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.rec {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.recText {
+  width: 45%;
+}
+
+.recText h2 {
+  margin-top: 3rem;
+  color: #01777c;
+  font-weight: 600;
+  font-size: clamp( 1.2rem, 1.5vw,1.5rem);
+}
+
+.recText p {
+  color: #01777c;
+  font-weight: 600;
+  font-size: clamp( 0.7rem, 1.2vw,1.2rem);
+  text-align: justify;
+  line-height: clamp( 1.5rem, 2.3vw,2.3rem);
+  margin-bottom: 2rem;
+}
+.recDrop {
+  background-color: #01777c;
+  font-size: clamp( 1.5rem, 2vw,2rem);
+  padding: 0.5rem 5px;
+  width: 100%;
+  font-weight: 700;
+}
+
+.recDrop1,
+.recDrop2 {
+  background-color: #03989e !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 1rem; */
+  font-size: 24px;
+  /* padding: 0.5rem 0.5rem; */
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.5s ease;
+}
+
+.recDrop2 {
+  margin-top: 1rem;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-content {
+  transition: transform 0.3s ease;
+  background-color: #01777c;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0.6em 1.2em;
+  text-align: justify;
+}
+
+
+
+.recDrop1.open, .recDrop2.open {
+  background-color: #01777c !important;
+}
+
+.recImg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.recImg img{
+    width: 85%;
+    /* height: 840px; */
+}

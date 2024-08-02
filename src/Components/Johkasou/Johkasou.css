@@ -1,0 +1,139 @@
+.johkasou{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.johkasou h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #01777C;
+    margin-bottom: 4rem;
+}
+
+.johkIntro{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.johkIntro1{
+    width: 45%;
+    color: #01777C;
+}
+
+.johkIntro1 h2{
+    color: #01777C;
+    font-size: clamp( 0.9rem, 1.5vw, 1.5rem);
+    font-weight: 600;
+    margin: 3rem 0;
+}
+
+.johkIntro1 ol{
+    padding-left: 16px;
+}
+
+.johkIntro1 li{
+    font-size: clamp( 0.6rem , 1.05vw ,1.05rem );
+    font-weight: 600;
+    line-height: clamp( 1.4rem ,2.25vw,2.25rem);
+}
+
+.johkIntro2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.johkIntro2 img{
+    width: 85%;
+    height: 100%;
+}
+
+.johkTitle{
+    background-color: #01777C;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 10px;
+    font-size: clamp( 1rem ,1.75vw, 1.75rem);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.stp{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.johkTitlestp{
+    background-color: #01777C;
+    color: #fff;
+    /* width: 100%; */
+    text-align: center;
+    padding: 0.5rem 20px;
+    font-size: clamp( 1rem ,1.75vw, 1.75rem);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.stp p{
+    font-size: clamp( 0.9rem ,1.75vw , 1.75rem);
+    color: #1A534F;
+    font-weight: 600;
+}
+
+.stp img{
+    width: 90%;
+    margin: auto;
+}
+
+.treatment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.treatmentImg{
+    width: 50%;
+}
+
+.treatmentImg img{
+    width: 70%;
+    height: 100%;
+}
+
+.treatmentText{
+    width: 50%;
+}
+
+.treatmentText p{
+    color: #01777C;
+    font-size: clamp( 0.8rem, 1.25vw, 1.25rem);
+    text-align: justify;
+}
+
+.circulation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.circulation p{
+    color: #1A534F;
+    font-size: clamp( 1rem ,1.75vw, 1.75rem);
+    line-height: clamp( 2rem , 2.75vw, 2.75rem);
+    font-weight: 400;
+}
+
+.circulation img{
+    width: 100%;
+    margin-bottom: 4rem;
+}

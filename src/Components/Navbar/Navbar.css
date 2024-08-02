@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.navLogo{
+    display: flex;
+    width: 20%;
+}
+.navLogo img{
+    width: 133px;
+    height: 58px;
+}
+
+.navList{
+    color: #00676C;
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.navList p{
+    font-size: 18px;
+    font-size: clamp( 0.8rem ,1.18vw ,1.18rem);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width : 1070px) {
+    .navList{
+        width: 75%;
+    }
+}

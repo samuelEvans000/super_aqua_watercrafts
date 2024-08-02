@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+.intro{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+    min-height: 90vh;
+}
+
+.introImg{
+    display: flex;
+    width: 50%;
+}
+
+.introImg img{
+    width: 100%;
+}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 0 2rem;
+}
+.introText h1{
+    color: #1A534F;
+    font-size: clamp(2rem, 3vw ,3rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: clamp( 3rem ,4.5vw,4.5rem);
+}
+
+.introText p{
+    color: #1A534F;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.introText button{
+    background-color: #18827A;
+    border: 1px solid #3DD2D8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Aldrich", sans-serif;
+}
+
+.aboutColor{
+    width: 100%;
+    background: linear-gradient(270deg, #3DD2D8 0%, #03989E 71.35%);
+    display: flex;
+    justify-content: center;
+    /* min-height: 100vh; */
+}
+
+.about{
+    width: 90%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+
+}
+
+.aboutText1{
+    padding: 2rem 2rem 2rem 2rem;
+    width: 50%;
+}
+
+.aboutText1 h1{
+    font-size: clamp(2rem, 3vw ,3rem);
+    font-weight: 700;
+}
+
+.aboutText1 h2{
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 700;
+}
+
+.aboutText1 p, .aboutText2 p{
+    font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+    font-weight: 700;
+    /* line-height: 45px; */
+    line-height: clamp( 1.5rem ,2.8vw,2.8rem);
+}
+
+.aboutText2{
+    padding: 2.8rem 0 2rem 2rem;
+    width: 50%;
+}
+
+.aboutText2 img{
+    width: 100%;
+}
+
+.change{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.change h1{
+    color: #1A534F;
+    font-size: clamp(2rem, 3vw ,3rem);
+    font-weight: 700;
+}
+
+.changeBoxes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+}
+
+.changeBox{
+    border: 1px solid #3DD2D8;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 300px ;
+    /* min-height: 650px; */
+    border-radius: 20px;
+}
+
+.changeBox img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.changeTitle{
+    color: #03989E !important;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 700;
+
+}
+.changeBox p{
+    color: black;
+    /* font-size: 18px; */
+    font-size: clamp(0.6rem, 1.1vw, 1.1rem);
+    /* line-height: 34px; */
+    line-height: clamp( 1.4rem ,2.2vw, 2.2rem);
+    font-weight: 700;
+    /* text-align: justify; */
+}
+
+.lets{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+}
+
+.letsImg{
+    display: flex;
+    width: 50%;
+}
+
+.letsImg img{
+    width: 100%;
+}
+
+.letsText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 0 2rem;
+}
+.letsText h1{
+    color: #01777C;
+    font-size: clamp(2rem, 3vw ,3rem);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.letsText h3{
+    color: #03989E;
+    font-size: 24px;
+    font-size: 700;
+    /* margin-top: 0; */
+}
+
+.letsText p{
+    color: #18827A;
+    font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+    font-weight: 700;
+    margin-bottom: 4rem;
+    line-height: clamp( 1.5rem ,2.25vw,2.25rem);
+    
+}
+
+.letsText button{
+    background-color: #18827A;
+    border: 1px solid #3DD2D8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Aldrich", sans-serif;
+}

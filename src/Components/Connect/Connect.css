@@ -1,0 +1,43 @@
+.connect{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+.connectImg{
+    width: 45%;
+}
+.connectImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.connectText{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.connectText h2{
+    font-size: clamp( 1.5rem, 2vw,2rem);
+    font-weight: 700;
+    color: #01777C;
+}
+
+.connectText h3{
+    color: #01777C;
+    font-size: clamp( 1.25rem, 1.5vw, 1.5rem);
+    font-weight: 700;
+}
+
+.connectText p{
+    color: #01777C;
+    font-size: clamp( 1.25rem, 1.5vw, 1.5rem);
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
