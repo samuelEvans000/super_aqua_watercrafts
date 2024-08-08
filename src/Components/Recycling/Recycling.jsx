@@ -34,6 +34,25 @@ const Recycling = () => {
             maintenance of the same.
           </p>
 
+          <div className="recMobile">
+            <div className="recDrop"> Johkasou Waste Water Treatment </div>
+            <p>
+              {" "}
+              Japan has developed Johkasou- A decentralized treatment approach
+              and used this concept effectively for wastewater systems, these
+              systems have been in use for over 4 decades In Japan and have
+              shown great results in relieving the pressure on water resources.
+            </p>
+
+            <div className="recDrop"> Johkasou Waste Water Treatment </div>
+            <p>Johkasou-STP Is the most suitable concept for Indian demand &
+              circumstances for various reasons than any regular wastewater
+              treatment system lacks. Johkasou Is highly modular and scalable in
+              nature, It can be easily installed block by block or building by
+              building and It operates at a small CAPEX and a very low
+              operational cost.</p>
+          </div>
+
           <button
             className={`recDrop1 ${isOpen ? "open" : ""}`}
             onClick={toggleDropdown}
@@ -47,7 +66,7 @@ const Recycling = () => {
             />
           </button>
           {isOpen && (
-            <div className="dropdown-content" >
+            <div className="dropdown-content">
               Japan has developed Johkasou- A decentralized treatment approach
               and used this concept effectively for wastewater systems, these
               systems have been in use for over 4 decades In Japan and have
@@ -59,9 +78,9 @@ const Recycling = () => {
             onClick={toggleDropdown1}
             className={`recDrop2 ${isOpen1 ? "open" : ""}`}
           >
-            <span className={`span ${isOpen1 ? "open" : ""}`} >
-              Core Concept of Johkasou Is - “Treat at the Site, Reuse
-              at the Site”
+            <span className={`span ${isOpen1 ? "open" : ""}`}>
+              Core Concept of Johkasou Is - “Treat at the Site, Reuse at the
+              Site”
             </span>{" "}
             <img
               className={`arrow ${isOpen1 ? "open" : ""}`}

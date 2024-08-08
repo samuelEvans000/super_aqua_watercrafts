@@ -8,6 +8,7 @@ import Johkasou from "./Components/Johkasou/Johkasou"
 import About from "./Components/About/About"
 import Installation from "./Components/Installation/Installation"
 import Connect from "./Components/Connect/Connect"
+import Sidebar from "./Components/Navbar/Sidebar"
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Navbar/>
+      <Sidebar/>
       <Routes>
         <Route path="/" element= {<Home />} />
         <Route path="aboutUs" element={<About />} />

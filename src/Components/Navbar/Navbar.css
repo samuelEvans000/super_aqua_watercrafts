@@ -12,8 +12,9 @@
     width: 20%;
 }
 .navLogo img{
-    width: 133px;
-    height: 58px;
+    width: 143px;
+    height: 68px;
+    object-fit: fill;
 }
 
 .navList{
@@ -31,8 +32,54 @@
     white-space: nowrap;
 }
 
+.sidebar{
+    display: none;
+}
+
 @media only screen and (max-width : 1070px) {
     .navList{
         width: 75%;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .navbar{
+        display: none;
+    }
+    .sidebar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        padding: 1rem 0 0 0;
+    }
+
+    .sideLogo img{
+            width: 100px;
+            height: 34px;
+    }
+
+
+    .menuIcon img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background:#00676C;
+        color: #fff;
+        transition: left 0.3s;
+        z-index: 1;
+        overflow-y: scroll;
+    }
+
+    .menu.open{
+        left: 0;
     }
 }

@@ -27,23 +27,24 @@
   margin-top: 3rem;
   color: #01777c;
   font-weight: 600;
-  font-size: clamp( 1.2rem, 1.5vw,1.5rem);
+  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
 }
 
 .recText p {
   color: #01777c;
   font-weight: 600;
-  font-size: clamp( 0.7rem, 1.2vw,1.2rem);
+  font-size: clamp(0.7rem, 1.2vw, 1.2rem);
   text-align: justify;
-  line-height: clamp( 1.5rem, 2.3vw,2.3rem);
+  line-height: clamp(1.5rem, 2.3vw, 2.3rem);
   margin-bottom: 2rem;
 }
 .recDrop {
   background-color: #01777c;
-  font-size: clamp( 1.5rem, 2vw,2rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   padding: 0.5rem 5px;
   width: 100%;
   font-weight: 700;
+  box-sizing: border-box;
 }
 
 .recDrop1,
@@ -82,9 +83,8 @@
   text-align: justify;
 }
 
-
-
-.recDrop1.open, .recDrop2.open {
+.recDrop1.open,
+.recDrop2.open {
   background-color: #01777c !important;
 }
 
@@ -94,7 +94,49 @@
   justify-content: center;
 }
 
-.recImg img{
-    width: 85%;
-    /* height: 840px; */
+.recImg img {
+  width: 85%;
+  /* height: 840px; */
+}
+
+.recMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .recMobile {
+    display: block;
+  }
+
+  .recDrop1,
+  .recDrop2 {
+    display: none;
+  }
+
+  .recycling h1{
+    font-size: 24px;
+  }
+
+  .recDrop{
+    font-size: 18px;
+  }
+
+  .recText h2{
+    font-size: 16px;
+  }
+
+  .recText p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .rec {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .recText,
+  .recImg {
+    width: 100%;
+  }
 }

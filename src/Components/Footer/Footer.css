@@ -53,3 +53,14 @@
   font-weight: 600;
   font-size: clamp(0.7rem, 1vw, 1rem);
 }
+
+@media only screen and (max-width : 800px) {
+.footer{
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer2, .footer1{
+  text-align: center;
+}
+}
