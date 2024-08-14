@@ -23,7 +23,7 @@ function App() {
         <Route path="aboutUs" element={<About />} />
         <Route path="/waterRecycling" element= {<Recycling />} />
         <Route path="/johkasouTechnology" element= {<Johkasou />} />
-        <Route path="/installation" element={<Installation />} />
+        <Route path="/ourInstallation" element={<Installation />} />
         <Route path="/letsConnect" element={<Connect />} />
       </Routes>
       <Footer/>

@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link to='/johkasouTechnology'>
         <p>Johkasou Technology</p>
         </Link>
-        <Link to='/installation'>
+        <Link to='/ourInstallation'>
         <p>Our Installation</p>
         </Link>
       </div>

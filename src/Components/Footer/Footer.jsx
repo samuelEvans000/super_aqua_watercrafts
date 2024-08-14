@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="footer2">
           <div>
             <p>Contact Person</p>
-            <h3>Mr. Nikhil Goyal, CEO </h3>
+            <h3>Mr. Nikhil Goyal </h3>
           </div>
 
           <div>

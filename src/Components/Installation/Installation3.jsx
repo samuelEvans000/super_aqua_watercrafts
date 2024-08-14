@@ -1,6 +1,27 @@
-import React from "react";
+import React,{useState, useEffect}  from "react";
 
 const Installation3 = () => {
+
+const [img, setImg]= useState()
+
+const image = () =>{
+  if(window.innerWidth < 800){
+    setImg('assets/s32m.png')
+  }else{
+    setImg('assets/s32.png')
+  }
+}
+
+useEffect(() => {
+  image(); 
+  window.addEventListener("resize", image); 
+  
+  return () => {
+    window.removeEventListener("resize", image);
+  };
+}, []);
+
+
   return (
     <div className="siteName3">
       <div className="installTitle1">
@@ -11,7 +32,7 @@ const Installation3 = () => {
         Pink Villa Resort Meerut 15 kld STP Plant<br></br> STP Plant
         Installation photos
       </div>
-      <img src="/assets/s32.png" />
+      {img && <img src={img} alt="Responsive Image" />}
     </div>
   );
 };

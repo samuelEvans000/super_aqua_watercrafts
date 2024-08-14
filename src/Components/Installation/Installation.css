@@ -33,7 +33,7 @@
   padding: 0.5rem 20px;
   font-size: clamp(1rem, 1.75vw, 1.75rem);
   font-weight: 700;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .installTitle1 {
@@ -44,7 +44,7 @@
   padding: 1rem 20px;
   font-size: clamp(1rem, 1.75vw, 1.75rem);
   font-weight: 700;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   box-sizing: border-box;
 }
 
@@ -201,4 +201,65 @@
 
 .siteName4 img{
     width: 100%;
+}
+
+.s5img{
+display: block;
+}
+
+.s5mimg{
+  display: none;
+}
+
+@media only screen and (max-width:800px) {
+  .installationTitle h1{
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .installation1 p{
+    font-size: 12px;
+  }
+
+  .installImg{
+    flex-direction: column;
+  }
+
+  .insImg{
+    width: 100%;
+  }
+
+  .siteImg img{
+    width: 100%;
+  }
+
+  .siteName1, .siteName2{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .sn1, .sn2{
+    width: 100%;
+  }
+
+  .s31{
+    width: 100% !important;
+  }
+
+.installTitle2{
+  font-size: 20px;
+}
+
+.s5img{
+  display: none;
+}
+
+.s5mimg{
+  display: block;
+}
+
+.pagination button{
+  padding: 5px 7.5px;
+}
+
 }

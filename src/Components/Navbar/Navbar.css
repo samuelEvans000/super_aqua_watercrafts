@@ -1,85 +1,97 @@
-.navbar{
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
-    padding: 1rem 0 1rem 0;
+.navbar {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
 }
 
-.navLogo{
-    display: flex;
-    width: 20%;
+.navLogo {
+  display: flex;
+  width: 20%;
 }
-.navLogo img{
-    width: 143px;
-    height: 68px;
-    object-fit: fill;
-}
-
-.navList{
-    color: #00676C;
-    display: flex;
-    width: 65%;
-    justify-content: space-between;
-    gap: 1rem;
+.navLogo img {
+  width: 143px;
+  height: 68px;
+  object-fit: fill;
 }
 
-.navList p{
-    font-size: 18px;
-    font-size: clamp( 0.8rem ,1.18vw ,1.18rem);
-    font-weight: 700;
-    white-space: nowrap;
+.navList {
+  color: #00676c;
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-.sidebar{
+.navList p {
+  font-size: 18px;
+  font-size: clamp(0.8rem, 1.18vw, 1.18rem);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media only screen and (max-width: 1070px) {
+  .navList {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
     display: none;
-}
+  }
+  .sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1rem 0 0 0;
+  }
 
-@media only screen and (max-width : 1070px) {
-    .navList{
-        width: 75%;
-    }
-}
+  .sideLogo img {
+    width: 100px;
+    height: 34px;
+  }
 
-@media only screen and (max-width : 800px) {
-    .navbar{
-        display: none;
-    }
-    .sidebar{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 90%;
-        margin: auto;
-        padding: 1rem 0 0 0;
-    }
+  .menuIcon img {
+    width: 30px;
+    height: 30px;
+  }
 
-    .sideLogo img{
-            width: 100px;
-            height: 34px;
-    }
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #01777c;
+    color: #fff;
+    transition: left 0.3s;
+    z-index: 1;
+    overflow-y: scroll;
+    text-align: right;
+    padding-top: 1rem;
+  }
 
+  .menu.open {
+    left: 0;
+  }
 
-    .menuIcon img{
-        width: 30px;
-        height: 30px;
-    }
+  .menu p {
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 1rem;
+  }
 
-    .menu{
-        position: fixed;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background:#00676C;
-        color: #fff;
-        transition: left 0.3s;
-        z-index: 1;
-        overflow-y: scroll;
-    }
-
-    .menu.open{
-        left: 0;
-    }
+  .whiteLine {
+    border: 1px solid #fff;
+    width: 100%;
+  }
 }
