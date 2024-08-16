@@ -20,17 +20,19 @@ const Footer = () => {
         <div className="footer2">
           <div>
             <p>Contact Person</p>
-            <h3>Mr. Nikhil Goyal </h3>
+            <h3>Mr. Hariphool Singh </h3>
           </div>
 
           <div>
             <p>Contact Number</p>
-            <h3> +91-96098 84100 </h3>
+            <h3> +91-7906519312 </h3>
           </div>
 
           <div>
             <p>Email </p>
+            <a href="mailto:sawatercrafts@gmail.com">
             <h3>sawatercrafts@gmail.com</h3>
+            </a>
           </div>
         </div>
       </div>

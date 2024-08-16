@@ -16,13 +16,15 @@ const Connect = () => {
         </h3>
         
         <p>Contact Person</p>
-        <h3>Mr. Nikhil Goyal</h3>
+        <h3>Mr. Hariphool Singh</h3>
     
         <p>Contact Number</p>
-        <h3>+91-96098 84100</h3>
+        <h3>+91-7906519312</h3>
         
         <p>Email</p>
+        <a href="mailto:sawatercrafts@gmail.com">
         <h3>sawatercrafts@gmail.com</h3>
+        </a>
       </div>
     </div>
   );
